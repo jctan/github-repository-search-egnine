@@ -7,7 +7,7 @@ The result of the username search, it display a list of repos, if any, showing t
 
 ### Index.vue
 
-The main view that routes to the app and being configured in ```../router/index.js```
+The main view that routes to the app and being mapped to ```../router/index.js```
 
 
 ## Components
