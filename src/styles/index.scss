@@ -1,0 +1,41 @@
+.container {
+	&.header{
+		.headerStyle {
+			font-weight: 400;
+			font-family: sans-serif;
+		}
+
+	}
+
+
+	&.searchEngine {
+		.subtitle {
+			margin-top: 16px;
+		}
+	}
+
+	&.repositories {
+		.repo-name {
+			padding-bottom: 8px;
+		}
+		.repo-desc {
+			margin-bottom: 0;
+			font-size: 1rem;
+			font-weight: 200;
+			line-height: 1.5rem;
+			font-family: "Roboto", san-serif;
+		}
+		.wrench-tool {
+			color: #000000;
+			border-color: white;
+			padding-left: 0;
+			margin-bottom: 0;
+		}
+		a {
+			text-decoration: none;
+		}
+		h3 {
+			line-height: 1.4rem;
+		}
+	}
+}
