@@ -26,7 +26,9 @@ The main view that routes to app and being configured in ```../router/index.js``
 
 ## Unit-Testing (Jest)
 - Used Jest for unit-testing for its simplicity.
-- Wrote unit-test for Header.vue and Repositories.vue component
+- Wrote unit-test for Header.vue and Repositories.vue component on the following test files
+	- ```Header.spec.js```
+	- ```Repositories.spec.js```
 - Tested on each individual component level to see if props data match the expected outcome 
 - Tested on function call when action is triggered
 - TBD: Unit-Test for SearchEngine.vue
@@ -40,6 +42,8 @@ The main view that routes to app and being configured in ```../router/index.js``
 	- Username exist is checked
 	- If user exist, make a 'GET' request to Github API to get the user and should expect a response status as success (200)
 	- If response is success (200), show the respositories
+- Test File:
+	- ```github-repo.spec.js```
 - TBD: Test if user doesn't exist and repositories doesn't exist
 
 ## Setup and Install
